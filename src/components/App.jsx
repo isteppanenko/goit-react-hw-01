@@ -14,7 +14,6 @@ const App = () => {
             followers={userData.stats.followers}
             views={userData.stats}
             />
-            <h2>Hello</h2>
         </>
     )
 }
