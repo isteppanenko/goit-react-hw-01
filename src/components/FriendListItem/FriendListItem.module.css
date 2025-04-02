@@ -1,7 +1,9 @@
 .name {
   display: flex;
   justify-content: center;
-
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   /* margin-bottom: 10px; */
@@ -11,6 +13,8 @@
   display: flex;
   justify-content: center;
   color: green;
+  margin: 0px;
+
   /* margin-bottom: 10px; */
 }
 
@@ -18,5 +22,7 @@
   display: flex;
   justify-content: center;
   color: red;
+  margin: 0px;
+
   /* margin-bottom: 10px; */
 }
