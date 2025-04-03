@@ -4,7 +4,7 @@ const TransactionHistory = () => {
   return (
     <table className={css.transactionHistory}>
       <thead>
-        <tr>
+        <tr className={css.head}>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
