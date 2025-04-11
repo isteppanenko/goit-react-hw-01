@@ -5,6 +5,7 @@ import FriendList from './FriendList/FriendList.jsx';
 import FriendListItem from './FriendListItem/FriendListItem.jsx';
 import TransactionHistory from './TransactionHistory/TransactionHistory.jsx';
 import transactions from '../assets/transactionsHistory.json';
+import friends from '../assets/friendsList.json';
 
 // console.log(friendList);
 
@@ -12,6 +13,7 @@ const App = () => {
   // console.log(userData.username);
   return (
     <>
+      {console.log(friendList)}
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -21,7 +23,7 @@ const App = () => {
         followers={userData.stats.followers}
         views={userData.stats}
       />
-      <FriendList />
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
   );
