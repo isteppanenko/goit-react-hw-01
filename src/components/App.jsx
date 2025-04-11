@@ -13,7 +13,6 @@ const App = () => {
   // console.log(userData.username);
   return (
     <>
-      {console.log(friendList)}
       <Profile
         name={userData.username}
         tag={userData.tag}
@@ -24,7 +23,7 @@ const App = () => {
         views={userData.stats}
       />
       <FriendList friends={friends} />
-      <TransactionHistory items={transactions} />
+      <TransactionHistory transactions={transactions} />
     </>
   );
 };
